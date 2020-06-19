@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bands</title>
+</head>
+<body>
+    <script class="javascript">
+        // create bands array
+        var bands = ["aerosmith", "pink floyd", "queen", "lynyrd skynyrd", "rush"]
+
+        // ask the question
+        var answer = prompt("What is your favorite band?")
+
+        // make response all lower case to 
+        var answerLowerCase = answer.toLowerCase();
+
+        if (bands.indexOf(answerLowerCase) === -1) {
+            alert("Nah, they're pretty lame")
+        } else {
+            alert("YEAH! I LOVE THEM!")
+        }
+    
+    </script>   
+</body>
+</html>
